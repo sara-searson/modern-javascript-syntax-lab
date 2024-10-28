@@ -110,8 +110,25 @@
 
 // Your code here
 
-function description( noun = 'cat', adjective = 'white') {
-    console.log(`The ${noun} is ${adjective}`)
+// function description( noun = 'cat', adjective = 'white') {
+//     console.log(`The ${noun} is ${adjective}`)
+// }
+
+// description()
+
+
+//-----Exercise 9-----
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+  console.log('yum');
+} else {
+  console.log('yuck');
 }
 
-description()
+// Your code here
+
+pizza === 'tasty' ? console.log('yum') : console.log('yuck');
