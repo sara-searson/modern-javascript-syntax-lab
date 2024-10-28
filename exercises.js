@@ -12,3 +12,16 @@ const doubled = nums.map((number) => {
     return number * 2
 })
 console.log(doubled)
+
+//-----Exercise 2-----
+
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
+
+const [firstTopping, secondTopping] = pizzaToppings
+
+console.log(firstTopping)
+console.log(secondTopping)
