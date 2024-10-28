@@ -61,18 +61,35 @@
 
 // Duplicate the following object and spread its values into a new variable `myCar`.
 
-const car = {
-    make: 'Audi',
-    model: 'q5',
-};
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+// };
   
 // Change the `model` property of `myCar` to 'q7'. Log both objects.
 
 // Your code here
   
-const myCar = {...car}
+// const myCar = {...car}
 
-myCar.model = 'q7'
+// myCar.model = 'q7'
 
-console.log(car)
-console.log(myCar)
+// console.log(car)
+// console.log(myCar)
+
+
+//-----Exercise 6-----
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+
+const propertyName = 'email'
+
+const userPorfile = {
+    [propertyName]: 'sara@email.com'
+}
+
+console.log(userPorfile)
