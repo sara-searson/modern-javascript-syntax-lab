@@ -86,10 +86,13 @@
 
 // Your code here
 
-const propertyName = 'email'
+// const propertyName = 'email'
 
-const userPorfile = {
-    [propertyName]: 'sara@email.com'
-}
+// const userPorfile = {
+//     [propertyName]: 'sara@email.com'
+// }
 
-console.log(userPorfile)
+// console.log(userPorfile)
+
+
+//-----Exercise 7-----
